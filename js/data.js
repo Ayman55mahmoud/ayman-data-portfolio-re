@@ -1,98 +1,145 @@
 /* Edit this file to add or update portfolio projects. Keep findings factual; replace demo content with your own results. */ window.portfolioProjects = [
-  {
-    id: 'sales-analysis',
-    title: {
-      en: 'Sales Data Analysis',
-      ar: 'تحليل بيانات المبيعات'
-    },
-    description: {
-      en: 'Explore sales performance, product trends, and regional results to support clearer business decisions.',
-      ar: 'استكشاف أداء المبيعات واتجاهات المنتجات ونتائج المناطق لدعم قرارات تجارية أوضح.'
-    },
-    tools: [
-      'Excel',
-      'PivotTables',
-      'Data Cleaning'
+  
+{
+  id: 'sales-delivery-analytics',
+  title: {
+    en: 'Sales & Delivery Performance Analysis',
+    ar: 'تحليل أداء المبيعات والتسليم'
+  },
+  description: {
+    en: 'Analyze sales orders, customer segments, product color preferences, and delivery performance through an Excel dashboard.',
+    ar: 'تحليل طلبات المبيعات وشرائح العملاء والألوان الأكثر مبيعًا وأداء التسليم من خلال لوحة معلومات تفاعلية باستخدام Excel.'
+  },
+  tools: [
+    'Microsoft Excel',
+    'Data Cleaning',
+    'PivotTables',
+    'Charts',
+    'Dashboard Design'
+  ],
+  categories: [
+    'analysis',
+    'excel',
+    'dashboards'
+  ],
+  status: 'completed',
+  type: {
+    en: 'Sales & Business Analysis',
+    ar: 'تحليل المبيعات والأعمال'
+  },
+  businessProblem: {
+    en: 'Understanding sales distribution and delivery performance can be difficult when order information is spread across raw data. A clear dashboard helps summarize customer segments, geographic demand, product preferences, and delivery timing.',
+    ar: 'قد يكون فهم توزيع المبيعات وأداء التسليم صعبًا عندما تكون معلومات الطلبات موجودة في بيانات خام. تساعد لوحة المعلومات على تلخيص شرائح العملاء والطلب حسب المناطق وتفضيلات المنتجات ومواعيد التسليم.'
+  },
+  questions: {
+    en: [
+      'What are the total sales and total number of orders?',
+    'What is the average selling price?',
+    'How do sales vary across platforms?',
+    'Which product is the best seller?',
+    'What percentage of orders were delivered on time?',
+    'What is the breakdown of delivery statuses, including cancelled and undelivered orders?',
+    'Which areas have the highest number of orders?',
+    'Which product colors are sold most frequently?',
+    'What is the distribution of individual and company customers?'
     ],
-    categories: [
-      'analysis',
-      'excel'
-    ],
-    status: 'progress',
-    type: {
-      en: 'Data Analysis',
-      ar: 'تحليل بيانات'
-    },
-    businessProblem: {
-      en: 'A business needs a reliable overview of sales performance, but raw order data is difficult to compare without cleaning and consistent metrics.',
-      ar: 'تحتاج الشركة إلى رؤية واضحة لأداء المبيعات، لكن بيانات الطلبات الخام يصعب مقارنتها دون تنظيف ومقاييس موحدة.'
-    },
-    questions: {
-      en: [
-        'How do sales and profit change over time?',
-        'Which products and regions contribute most?',
-        'Are there missing, duplicated, or inconsistent values?'
-      ],
-      ar: [
-        'كيف تتغير المبيعات والأرباح بمرور الوقت؟',
-        'ما المنتجات والمناطق الأكثر مساهمة؟',
-        'هل توجد قيم مفقودة أو مكررة أو غير متسقة؟'
-      ]
-    },
-    dataset: {
-      en: 'Sales orders dataset · Replace with the real source, row count, date range, columns, and data-quality notes when publishing your finished project.',
-      ar: 'مجموعة بيانات طلبات مبيعات · أضف المصدر الحقيقي وعدد الصفوف والفترة الزمنية والأعمدة وملاحظات جودة البيانات قبل نشر المشروع النهائي.'
-    },
-    methodology: {
-      en: [
-        'Understand the business questions and define useful metrics.',
-        'Inspect columns, data types, blanks, duplicates, and inconsistent values.',
-        'Clean and standardize fields without inventing missing information.',
-        'Use PivotTables and formulas to compare performance across time, products, and regions.',
-        'Build clear charts and summarize evidence-based insights.'
-      ],
-      ar: [
-        'فهم أسئلة العمل وتحديد المقاييس المناسبة.',
-        'فحص الأعمدة وأنواع البيانات والخلايا الفارغة والتكرار والقيم غير المتسقة.',
-        'تنظيف البيانات وتوحيدها دون اختلاق بيانات مفقودة.',
-        'استخدام PivotTables والمعادلات لمقارنة الأداء عبر الوقت والمنتجات والمناطق.',
-        'إنشاء رسوم واضحة وتلخيص نتائج مبنية على البيانات.'
-      ]
-    },
-    findings: {
-      en: [
-        'Findings will be added after validating the completed analysis.',
-        'Avoid publishing example numbers as real business results.'
-      ],
-      ar: [
-        'ستضاف النتائج بعد التحقق من التحليل المكتمل.',
-        'لا تنشر أرقامًا تجريبية باعتبارها نتائج فعلية.'
-      ]
-    },
-    deliverables: {
-      en: [
-        'Cleaned working dataset',
-        'Analysis workbook and summary charts',
-        'Recommendations supported by verified findings'
-      ],
-      ar: [
-        'ملف بيانات منظم بعد التنظيف',
-        'ملف تحليل ورسوم تلخيصية',
-        'توصيات مدعومة بنتائج تم التحقق منها'
-      ]
-    },
-    links: {
-      github: '',
-      demo: '',
-      dataset: ''
-    },
-    thumbnail: 'sales',
-    screenshots: [
-      'sales',
-      'table',
-      'chart'
+    ar: [
+      'ما إجمالي المبيعات وإجمالي عدد الطلبات؟',
+    'ما متوسط سعر البيع؟',
+    'كيف تتوزع المبيعات حسب المنصة؟',
+    'ما المنتج الأكثر مبيعًا؟',
+    'ما نسبة الطلبات التي تم تسليمها في الموعد المحدد؟',
+    'ما توزيع حالات التسليم، بما يشمل الطلبات الملغاة وغير المستلمة؟',
+    'ما المناطق التي لديها أكبر عدد من الطلبات؟',
+    'ما الألوان الأكثر مبيعًا؟',
+    'ما توزيع العملاء بين الأفراد والشركات؟'
     ]
   },
+  dataset: {
+    en: 'Source: MISUO sales and delivery workbook. The workbook contains order, customer, product, geographic, and delivery-related information. Validate the final record count, date range, column definitions, and data-quality notes before publishing them.',
+    ar: 'المصدر: ملف بيانات مبيعات وتسليم MISUO. يحتوي الملف على معلومات مرتبطة بالطلبات والعملاء والمنتجات والمناطق والتسليم. يجب التحقق من العدد النهائي للسجلات والفترة الزمنية وتعريفات الأعمدة وملاحظات جودة البيانات قبل نشرها.'
+  },
+  methodology: {
+    en: [
+      'Reviewed the source workbook and inspected the available data fields.',
+    'Cleaned and prepared the data for analysis.',
+    'Calculated total sales, total orders, and average selling price.',
+    'Compared sales and product performance across platforms.',
+    'Identified the best-selling product based on the selected sales metric.',
+    'Compared target and actual delivery dates to evaluate on-time delivery.',
+    'Analyzed delivery statuses, including cancelled and undelivered orders.',
+    'Used charts and summaries to analyze geographic demand, product colors, and customer segments.',
+    'Organized the results into an Excel dashboard.'
+    ],
+    ar: [
+      'مراجعة ملف البيانات الأصلي وفحص الحقول المتاحة.',
+    'تنظيف البيانات وتجهيزها للتحليل.',
+    'حساب إجمالي المبيعات وإجمالي الطلبات ومتوسط سعر البيع.',
+    'مقارنة المبيعات وأداء المنتجات حسب المنصة.',
+    'تحديد المنتج الأكثر مبيعًا وفقًا لمقياس المبيعات المستخدم.',
+    'مقارنة تواريخ التسليم المستهدفة والفعلية لتقييم الالتزام بالموعد.',
+    'تحليل حالات التسليم، بما يشمل الطلبات الملغاة وغير المستلمة.',
+    'استخدام الرسوم والملخصات لتحليل الطلب حسب المناطق وألوان المنتجات وشرائح العملاء.',
+    'تنظيم النتائج في لوحة معلومات باستخدام Excel.'
+    ]
+  },
+  findings: {
+    en: [
+      'The dashboard shows order distribution across geographic areas, with some areas recording more orders than others.',
+      'The color analysis compares the frequency of product colors in the available records.',
+      'The customer chart displays a 72% individual and 28% company split; confirm the counting method before interpreting this as a share of unique customers.',
+      'The delivery chart compares target and actual delivery timing, but its averages and categories should be validated before drawing conclusions.',
+      'The dashboard can help identify areas for further investigation in sales and delivery operations.'
+    ],
+    ar: [
+      'توضح لوحة المعلومات توزيع الطلبات على المناطق الجغرافية، مع تسجيل بعض المناطق عدد طلبات أكبر من غيرها.',
+      'يقارن تحليل الألوان تكرار ألوان المنتجات في السجلات المتاحة.',
+      'يعرض رسم العملاء نسبة 72% للأفراد و28% للشركات؛ يجب التأكد من طريقة العد قبل اعتبارها نسبة العملاء الفريدين.',
+      'يقارن رسم التسليم بين التوقيت المستهدف والفعلي، لكن يجب التحقق من المتوسطات والفئات قبل استخلاص استنتاجات.',
+      'يمكن أن تساعد لوحة المعلومات في تحديد جوانب تحتاج إلى دراسة إضافية في عمليات المبيعات والتسليم.'
+    ]
+  },
+  deliverables: {
+    en: [
+      'Excel sales and delivery analysis workbook',
+    'Sales KPI summary: total sales, total orders, and average selling price',
+    'Sales by platform analysis',
+    'Best-selling product analysis',
+    'On-time delivery rate KPI',
+    'Delivery status breakdown',
+    'Orders by area analysis',
+    'Product color sales analysis',
+    'Individual versus company customer breakdown',
+    'Interactive dashboard with charts and key performance indicators'
+    ],
+    ar: [
+      'ملف Excel لتحليل المبيعات والتسليم',
+    'ملخص مؤشرات المبيعات: إجمالي المبيعات والطلبات ومتوسط سعر البيع',
+    'تحليل المبيعات حسب المنصة',
+    'تحليل المنتج الأكثر مبيعًا',
+    'مؤشر نسبة التسليم في الموعد المحدد',
+    'تحليل توزيع حالات التسليم',
+    'تحليل الطلبات حسب المناطق',
+    'تحليل مبيعات ألوان المنتجات',
+    'مقارنة الأفراد والشركات',
+    'لوحة معلومات تفاعلية تحتوي على الرسوم ومؤشرات الأداء الرئيسية'
+    ]
+  },
+  links: {
+    github: 'https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis',
+    demo: '',
+    dataset: 'https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis/blob/main/miuo%20source.xlsx'
+  },
+  thumbnail:
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192907.png",
+
+screenshots: [
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192907.png",
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192934.png",
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20211533.png"
+],
+},
+
   {
     id: 'business-dashboard',
     title: {
