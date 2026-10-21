@@ -140,190 +140,167 @@ screenshots: [
 ],
 },
 
-  {
-    id: 'business-dashboard',
-    title: {
-      en: 'Business Performance Dashboard',
-      ar: 'لوحة مؤشرات أداء الأعمال'
-    },
-    description: {
-      en: 'A dashboard concept for monitoring revenue, orders, delivery performance, and regional patterns.',
-      ar: 'تصور لوحة لمتابعة الإيرادات والطلبات وأداء التسليم والأنماط حسب المنطقة.'
-    },
-    tools: [
-      'Excel',
-      'Charts',
-      'KPIs'
+  
+{
+  id: 'employee-performance-dashboard',
+
+  title: {
+    en: 'Employee Performance Dashboard',
+    ar: 'لوحة معلومات أداء الموظفين'
+  },
+
+  description: {
+    en: 'An Excel dashboard designed to monitor employee performance, productivity, work quality, attendance, customer satisfaction, and revenue across departments.',
+    ar: 'لوحة معلومات باستخدام Excel لمتابعة أداء الموظفين والإنتاجية وجودة العمل والحضور ورضا العملاء والإيرادات ومقارنة الأداء بين الأقسام.'
+  },
+
+  tools: [
+    'Microsoft Excel',
+    'Data Cleaning',
+    'PivotTables',
+    'Excel Formulas',
+    'KPI Analysis',
+    'Charts',
+    'Dashboard Design'
+  ],
+
+  categories: [
+    'analysis',
+    'excel',
+    'dashboards'
+  ],
+
+  status: 'completed',
+
+  type: {
+    en: 'HR Analytics & Performance Analysis',
+    ar: 'تحليل الموارد البشرية والأداء'
+  },
+
+  businessProblem: {
+    en: 'Organizations need a clear way to monitor employee productivity and understand differences in performance across employees, teams, and departments. This dashboard consolidates performance records into a visual overview to support data-driven decisions.',
+    ar: 'تحتاج المؤسسات إلى طريقة واضحة لمتابعة إنتاجية الموظفين وفهم اختلافات الأداء بين الموظفين والفرق والأقسام. تجمع لوحة المعلومات سجلات الأداء في عرض مرئي يساعد على اتخاذ قرارات مبنية على البيانات.'
+  },
+
+  questions: {
+    en: [
+      'How many performance records are included in the dataset?',
+      'How does performance change over time?',
+      'How many tasks were targeted versus completed?',
+      'Which employees have the highest performance scores?',
+      'How does performance vary across departments?',
+      'What are the average quality scores?',
+      'How do attendance rates compare across employees?',
+      'How satisfied are customers with employee service?',
+      'How is revenue distributed across employees and locations?',
+      'Which employees or departments may need further investigation?'
     ],
-    categories: [
-      'analysis',
-      'excel',
-      'dashboards'
-    ],
-    status: 'planned',
-    type: {
-      en: 'Dashboard',
-      ar: 'لوحة مؤشرات'
-    },
-    businessProblem: {
-      en: 'Decision-makers need a quick, consistent view of important metrics instead of manually reviewing multiple sheets.',
-      ar: 'يحتاج متخذو القرار إلى رؤية سريعة وموحدة للمؤشرات المهمة بدلًا من مراجعة أوراق متعددة يدويًا.'
-    },
-    questions: {
-      en: [
-        'What are the core performance indicators?',
-        'Which regions or delivery statuses need attention?',
-        'How can a report make trends easier to spot?'
-      ],
-      ar: [
-        'ما مؤشرات الأداء الأساسية؟',
-        'ما المناطق أو حالات التسليم التي تحتاج إلى اهتمام؟',
-        'كيف يسهل التقرير ملاحظة الاتجاهات؟'
-      ]
-    },
-    dataset: {
-      en: 'Dashboard dataset and source details should be documented after the final version is built.',
-      ar: 'يجب توثيق مصدر بيانات لوحة المؤشرات وتفاصيلها بعد بناء النسخة النهائية.'
-    },
-    methodology: {
-      en: [
-        'Identify audience and decision needs.',
-        'Choose meaningful metrics and definitions.',
-        'Prepare and validate source data.',
-        'Design a consistent layout and visual hierarchy.',
-        'Check filters, calculations, readability, and conclusions.'
-      ],
-      ar: [
-        'تحديد الجمهور واحتياجات القرار.',
-        'اختيار المقاييس وتعريفاتها.',
-        'تجهيز البيانات المصدرية والتحقق منها.',
-        'تصميم تنسيق متسق وتسلسل بصري واضح.',
-        'مراجعة المرشحات والحسابات وسهولة القراءة والاستنتاجات.'
-      ]
-    },
-    findings: {
-      en: [
-        'This is a planned project concept; findings are not available yet.'
-      ],
-      ar: [
-        'هذا المشروع مخطط له؛ النتائج غير متاحة بعد.'
-      ]
-    },
-    deliverables: {
-      en: [
-        'Interactive KPI overview',
-        'Charts for time and category comparisons',
-        'Short notes on metric definitions'
-      ],
-      ar: [
-        'ملخص تفاعلي لمؤشرات الأداء',
-        'رسوم للمقارنة الزمنية وبحسب الفئات',
-        'ملاحظات مختصرة لتعريف المقاييس'
-      ]
-    },
-    links: {
-      github: '',
-      demo: '',
-      dataset: ''
-    },
-    thumbnail: 'dashboard',
-    screenshots: [
-      'dashboard',
-      'chart',
-      'table'
+
+    ar: [
+      'ما عدد سجلات الأداء الموجودة في مجموعة البيانات؟',
+      'كيف يتغير الأداء بمرور الوقت؟',
+      'ما الفرق بين عدد المهام المستهدفة والمهام المكتملة؟',
+      'من هم الموظفون الأعلى في درجات الأداء؟',
+      'كيف يختلف الأداء بين الأقسام؟',
+      'ما متوسط درجات جودة العمل؟',
+      'كيف تختلف معدلات الحضور بين الموظفين؟',
+      'ما مستوى رضا العملاء عن الخدمة المقدمة؟',
+      'كيف تتوزع الإيرادات بين الموظفين والمواقع؟',
+      'ما الموظفون أو الأقسام التي قد تحتاج إلى مزيد من التحليل؟'
     ]
   },
-  {
-    id: 'customer-behavior',
-    title: {
-      en: 'Customer Behavior Analysis',
-      ar: 'تحليل سلوك العملاء'
-    },
-    description: {
-      en: 'A planned analysis exploring customer segments, purchase frequency, and value patterns.',
-      ar: 'تحليل مخطط لاستكشاف شرائح العملاء وتكرار الشراء وأنماط القيمة.'
-    },
-    tools: [
-      'SQL',
-      'Data Analysis'
+
+  dataset: {
+    en: 'Employee performance dataset containing 1,000 records for six employees across three departments and three locations, covering January 2024 through August 2026. Fields include dates, employee details, departments, locations, target and completed tasks, quality scores, attendance rates, customer satisfaction, revenue in AED, and performance scores.',
+    ar: 'مجموعة بيانات لأداء الموظفين تحتوي على 1,000 سجل لستة موظفين موزعين على ثلاثة أقسام وثلاثة مواقع، خلال الفترة من يناير 2024 إلى أغسطس 2026. تشمل البيانات التواريخ وبيانات الموظفين والأقسام والمواقع والمهام المستهدفة والمكتملة ودرجات الجودة ومعدلات الحضور ورضا العملاء والإيرادات بالدرهم الإماراتي ودرجات الأداء.'
+  },
+
+  methodology: {
+    en: [
+      'Reviewed the workbook structure and data dictionary.',
+      'Inspected the available fields and their business meaning.',
+      'Reviewed performance records across the selected date range.',
+      'Organized performance metrics for employee and department comparisons.',
+      'Analyzed target tasks versus completed tasks.',
+      'Compared quality, attendance, and customer satisfaction metrics.',
+      'Examined revenue distribution by employee and location.',
+      'Used summary tables, PivotTables, and charts to explore performance patterns.',
+      'Presented key metrics and comparisons in an Excel dashboard.'
     ],
-    categories: [
-      'analysis',
-      'sql'
-    ],
-    status: 'planned',
-    type: {
-      en: 'SQL Analysis',
-      ar: 'تحليل باستخدام SQL'
-    },
-    businessProblem: {
-      en: 'A business wants to understand how customer groups behave so it can ask better questions about retention and engagement.',
-      ar: 'تريد شركة فهم سلوك مجموعات العملاء لتتمكن من طرح أسئلة أفضل حول الاحتفاظ بالعملاء والتفاعل.'
-    },
-    questions: {
-      en: [
-        'How should customer segments be defined?',
-        'How often do customers purchase?',
-        'Which measures can describe customer value?'
-      ],
-      ar: [
-        'كيف يمكن تعريف شرائح العملاء؟',
-        'كم مرة يشتري العملاء؟',
-        'ما المقاييس التي تصف قيمة العميل؟'
-      ]
-    },
-    dataset: {
-      en: 'Dataset to be selected and documented before analysis begins.',
-      ar: 'سيتم اختيار مجموعة البيانات وتوثيقها قبل بدء التحليل.'
-    },
-    methodology: {
-      en: [
-        'Select a suitable dataset and inspect its schema.',
-        'Define customer-level metrics.',
-        'Use SQL filters, joins, and aggregations.',
-        'Validate queries and compare segments.',
-        'Communicate limitations and verified results.'
-      ],
-      ar: [
-        'اختيار مجموعة بيانات مناسبة وفحص بنيتها.',
-        'تعريف المقاييس على مستوى العميل.',
-        'استخدام التصفية والربط والتجميع في SQL.',
-        'التحقق من الاستعلامات ومقارنة الشرائح.',
-        'توضيح القيود وعرض النتائج الموثقة.'
-      ]
-    },
-    findings: {
-      en: [
-        'Not started — no findings or numerical claims are published.'
-      ],
-      ar: [
-        'لم يبدأ بعد — لا توجد نتائج أو ادعاءات رقمية منشورة.'
-      ]
-    },
-    deliverables: {
-      en: [
-        'Documented SQL queries',
-        'Customer segment summary',
-        'Evidence-based observations'
-      ],
-      ar: [
-        'استعلامات SQL موثقة',
-        'ملخص لشرائح العملاء',
-        'ملاحظات مبنية على الأدلة'
-      ]
-    },
-    links: {
-      github: '',
-      demo: '',
-      dataset: ''
-    },
-    thumbnail: 'sql',
-    screenshots: [
-      'sql',
-      'table',
-      'chart'
+
+    ar: [
+      'مراجعة بنية ملف Excel وقاموس البيانات.',
+      'فحص الحقول المتاحة وفهم معناها في سياق العمل.',
+      'مراجعة سجلات الأداء خلال الفترة الزمنية المحددة.',
+      'تنظيم مؤشرات الأداء لمقارنة الموظفين والأقسام.',
+      'تحليل المهام المستهدفة مقارنة بالمهام المكتملة.',
+      'مقارنة مؤشرات الجودة والحضور ورضا العملاء.',
+      'تحليل توزيع الإيرادات حسب الموظف والموقع.',
+      'استخدام الجداول الملخصة والجداول المحورية والرسوم لاستكشاف أنماط الأداء.',
+      'عرض المؤشرات والمقارنات الرئيسية في لوحة معلومات باستخدام Excel.'
     ]
   },
+
+  findings: {
+    en: [
+      'The dataset supports performance analysis across six employees and three departments.',
+      'Target and completed task metrics can be compared to evaluate productivity.',
+      'Quality, attendance, and customer satisfaction provide additional dimensions for understanding performance.',
+      'Revenue can be analyzed across employees and work locations.',
+      'The dashboard can help managers identify performance patterns and areas requiring further investigation.'
+    ],
+
+    ar: [
+      'تتيح البيانات تحليل الأداء عبر ستة موظفين وثلاثة أقسام.',
+      'يمكن مقارنة المهام المستهدفة بالمكتملة لتقييم الإنتاجية.',
+      'توفر مؤشرات الجودة والحضور ورضا العملاء أبعادًا إضافية لفهم الأداء.',
+      'يمكن تحليل الإيرادات حسب الموظفين ومواقع العمل.',
+      'يمكن أن تساعد لوحة المعلومات المديرين على اكتشاف أنماط الأداء والجوانب التي تحتاج إلى مزيد من الدراسة.'
+    ]
+  },
+
+  deliverables: {
+    en: [
+      'Excel employee performance dashboard',
+      'Performance KPI overview',
+      'Target versus completed tasks analysis',
+      'Employee performance ranking',
+      'Department performance comparison',
+      'Work quality analysis',
+      'Attendance rate analysis',
+      'Customer satisfaction analysis',
+      'Revenue by employee and location analysis',
+      'Visual summaries and charts for management reporting'
+    ],
+
+    ar: [
+      'لوحة معلومات أداء الموظفين باستخدام Excel',
+      'ملخص مؤشرات الأداء الرئيسية',
+      'تحليل المهام المستهدفة مقارنة بالمكتملة',
+      'ترتيب الموظفين حسب الأداء',
+      'مقارنة الأداء بين الأقسام',
+      'تحليل جودة العمل',
+      'تحليل معدلات الحضور',
+      'تحليل رضا العملاء',
+      'تحليل الإيرادات حسب الموظف والموقع',
+      'ملخصات مرئية ورسوم بيانية لدعم التقارير الإدارية'
+    ]
+  },
+
+  links: {
+    github: 'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis',
+    demo: '',
+    dataset: 'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Employee_Performance_Dashboard_Data_1000_Rows%20(1).xlsx'
+  },
+
+  thumbnail: 'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/commit/896678b8442ad9d766c1d82a03daf87e45121423',
+
+  screenshots: [
+   'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/commit/896678b8442ad9d766c1d82a03daf87e45121423',
+    'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Screenshot%202026-10-21%20210006.png'
+  ]
+},
+
   {
     id: 'python-exploration',
     title: {
