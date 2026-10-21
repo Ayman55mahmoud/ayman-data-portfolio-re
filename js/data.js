@@ -293,11 +293,11 @@ screenshots: [
     dataset: 'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Employee_Performance_Dashboard_Data_1000_Rows%20(1).xlsx'
   },
 
-  thumbnail: 'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/commit/896678b8442ad9d766c1d82a03daf87e45121423',
+  thumbnail: "https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Screenshot%202026-10-21%20212734.png",
 
   screenshots: [
-   'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/commit/896678b8442ad9d766c1d82a03daf87e45121423',
-    'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Screenshot%202026-10-21%20210006.png'
+   "https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Screenshot%202026-10-21%20210006.png",
+    "https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Screenshot%202026-10-21%20212734.png"
   ]
 },
 
