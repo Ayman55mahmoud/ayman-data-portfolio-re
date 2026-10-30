@@ -130,8 +130,10 @@
     demo: '',
     dataset: 'https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis/blob/main/miuo%20source.xlsx'
   },
+//https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis/blob/main/Misuo%20Dashboard%20Sales%20Insights.png
+
   thumbnail:
-  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192907.png",
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Misuo%20Dashboard%20Sales%20Insights.png",
 
 screenshots: [
   "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192907.png",
