@@ -292,9 +292,9 @@ screenshots: [
     demo: '',
     dataset: 'https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Employee_Performance_Dashboard_Data_1000_Rows%20(1).xlsx'
   },
-
+//https://github.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/blob/main/Employee%20Performance%20Dashboard%20Banner.png
   
-thumbnail: "https://raw.githubusercontent.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/main/Screenshot%202026-10-21%20212734.png",
+thumbnail: "https://raw.githubusercontent.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/main/Employee%20Performance%20Dashboard%20Banner.png",
 
 screenshots: [
   "https://raw.githubusercontent.com/Ayman55mahmoud/HR-Analytics-Performance-Analysis/main/Screenshot%202026-10-21%20210006.png",
