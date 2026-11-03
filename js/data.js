@@ -331,7 +331,7 @@ screenshots: [
 
   categories: [
     'analysis',
-    'power-bi',
+    'powerbi',
     'dashboards'
   ],
 
