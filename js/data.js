@@ -306,97 +306,191 @@ screenshots: [
 },
 
   {
-    id: 'python-exploration',
-    title: {
-      en: 'Python Exploratory Data Analysis',
-      ar: 'التحليل الاستكشافي للبيانات باستخدام Python'
-    },
-    description: {
-      en: 'A future project to profile a public dataset, inspect data quality, and communicate useful patterns.',
-      ar: 'مشروع مستقبلي لفحص مجموعة بيانات عامة وجودتها وتوضيح الأنماط المفيدة.'
-    },
-    tools: [
-      'Python',
-      'Pandas',
-      'Visualization'
+  id: 'power-bi-sales-dashboard',
+
+  title: {
+    en: 'Sales Performance Dashboard',
+    ar: 'لوحة معلومات أداء المبيعات'
+  },
+
+  description: {
+    en: 'An interactive Power BI dashboard designed to analyze sales performance, profitability, quantity, customer trends, product categories, monthly sales, and regional performance through dynamic visualizations and interactive analysis features.',
+    ar: 'لوحة معلومات تفاعلية باستخدام Power BI لتحليل أداء المبيعات والأرباح والكميات واتجاهات العملاء والمبيعات حسب الفئات والأشهر والمناطق، مع مجموعة من الخصائص التفاعلية للتحليل المتقدم.'
+  },
+
+  tools: [
+    'Microsoft Power BI',
+    'Power Query',
+    'DAX',
+    'Data Modeling',
+    'Data Cleaning',
+    'Data Modeling',
+    'Data Visualization',
+    'Dashboard Design'
+  ],
+
+  categories: [
+    'analysis',
+    'power-bi',
+    'dashboards'
+  ],
+
+  status: 'completed',
+
+  type: {
+    en: 'Sales & Business Intelligence Analysis',
+    ar: 'تحليل المبيعات وذكاء الأعمال'
+  },
+
+  businessProblem: {
+    en: 'Understanding sales performance can be difficult when business data is distributed across different dimensions such as time, products, customers, and regions. An interactive Power BI dashboard provides a clear visual overview of key performance indicators and allows users to explore trends, compare results, and investigate detailed sales information.',
+    ar: 'قد يكون فهم أداء المبيعات صعبًا عندما تكون البيانات موزعة على أبعاد مختلفة مثل الوقت والمنتجات والعملاء والمناطق. توفر لوحة معلومات تفاعلية باستخدام Power BI رؤية واضحة لمؤشرات الأداء الرئيسية، مع إمكانية استكشاف الاتجاهات ومقارنة النتائج والوصول إلى تفاصيل المبيعات.'
+  },
+
+  questions: {
+    en: [
+      'What are the total sales, total profit, and total quantity?',
+      'How does sales performance change over time?',
+      'How does sales performance compare year over year?',
+      'Which product categories generate the highest sales?',
+      'Which regions contribute the most to total sales?',
+      'How does customer count change across years?',
+      'Which months have the highest sales?',
+      'How can users explore detailed information for selected data points?',
+      'How can users analyze different scenarios using What-if Analysis?',
+      'How can interactive tooltips provide additional information without leaving the dashboard?'
     ],
-    categories: [
-      'analysis',
-      'python'
-    ],
-    status: 'planned',
-    type: {
-      en: 'Exploratory Analysis',
-      ar: 'تحليل استكشافي'
-    },
-    businessProblem: {
-      en: 'Raw datasets can hide missing values, unusual distributions, and relationships that deserve further investigation.',
-      ar: 'قد تخفي البيانات الخام قيمًا مفقودة وتوزيعات غير معتادة وعلاقات تستحق الفحص.'
-    },
-    questions: {
-      en: [
-        'What does each column represent?',
-        'Which quality issues affect interpretation?',
-        'What patterns are supported by the data?'
-      ],
-      ar: [
-        'ماذا يمثل كل عمود؟',
-        'ما مشكلات الجودة التي تؤثر على التفسير؟',
-        'ما الأنماط التي تدعمها البيانات؟'
-      ]
-    },
-    dataset: {
-      en: 'A public dataset will be selected; its license, source, and limitations will be recorded.',
-      ar: 'سيتم اختيار بيانات عامة وتسجيل الترخيص والمصدر والقيود.'
-    },
-    methodology: {
-      en: [
-        'Select a documented public dataset.',
-        'Profile columns, types, missingness, and distributions.',
-        'Clean with reproducible Python steps.',
-        'Explore relationships using summaries and visualizations.',
-        'Record conclusions and limitations.'
-      ],
-      ar: [
-        'اختيار مجموعة بيانات عامة موثقة.',
-        'فحص الأعمدة والأنواع والقيم المفقودة والتوزيعات.',
-        'تنظيف البيانات بخطوات قابلة لإعادة التنفيذ في Python.',
-        'استكشاف العلاقات باستخدام الملخصات والرسوم.',
-        'تسجيل الاستنتاجات والقيود.'
-      ]
-    },
-    findings: {
-      en: [
-        'Planned project. Findings will be added after the analysis is completed.'
-      ],
-      ar: [
-        'مشروع مخطط له. ستضاف النتائج بعد إكمال التحليل.'
-      ]
-    },
-    deliverables: {
-      en: [
-        'Reproducible notebook',
-        'Data-quality summary',
-        'Charts and written conclusions'
-      ],
-      ar: [
-        'دفتر عمل قابل لإعادة التنفيذ',
-        'ملخص جودة البيانات',
-        'رسوم واستنتاجات مكتوبة'
-      ]
-    },
-    links: {
-      github: '',
-      demo: '',
-      dataset: ''
-    },
-    thumbnail: 'python',
-    screenshots: [
-      'python',
-      'chart',
-      'table'
+
+    ar: [
+      'ما إجمالي المبيعات وإجمالي الأرباح وإجمالي الكمية؟',
+      'كيف يتغير أداء المبيعات بمرور الوقت؟',
+      'كيف تتم مقارنة أداء المبيعات سنة بسنة؟',
+      'ما الفئات التي تحقق أعلى مبيعات؟',
+      'ما المناطق التي تساهم بأكبر نسبة من إجمالي المبيعات؟',
+      'كيف يتغير عدد العملاء عبر السنوات؟',
+      'ما الأشهر التي تحقق أعلى مبيعات؟',
+      'كيف يمكن الوصول إلى تفاصيل البيانات الخاصة بعنصر محدد؟',
+      'كيف يمكن تحليل السيناريوهات المختلفة باستخدام What-if Analysis؟',
+      'كيف تساعد Tooltips التفاعلية في عرض معلومات إضافية داخل لوحة المعلومات؟'
     ]
-  }
+  },
+
+  dataset: {
+    en: 'Source: Sales dataset used to build the Power BI dashboard. The dataset contains sales-related information used to analyze sales, profit, quantity, customers, categories, time periods, and regions.',
+    ar: 'المصدر: مجموعة بيانات المبيعات المستخدمة في إنشاء لوحة المعلومات باستخدام Power BI. تحتوي البيانات على معلومات مرتبطة بالمبيعات والأرباح والكميات والعملاء والفئات والفترات الزمنية والمناطق.'
+  },
+
+  methodology: {
+    en: [
+      'Reviewed the source dataset and inspected the available fields.',
+      'Cleaned and transformed the data using Power Query.',
+      'Prepared the data model for analysis in Power BI.',
+      'Created DAX measures for key sales and performance metrics.',
+      'Calculated total sales, total profit, and total quantity.',
+      'Analyzed sales performance across product categories and regions.',
+      'Analyzed monthly sales trends and customer counts over time.',
+      'Implemented Year-over-Year (YoY) analysis to compare performance across years.',
+      'Created What-if Analysis to allow users to explore different scenarios.',
+      'Implemented Drillthrough functionality for detailed analysis of selected data.',
+      'Created custom Tooltips to display additional information interactively.',
+      'Added interactive Buttons to improve dashboard navigation and user experience.',
+      'Organized the analysis into an interactive Power BI dashboard.'
+    ],
+
+    ar: [
+      'مراجعة مجموعة البيانات الأصلية وفحص الحقول المتاحة.',
+      'تنظيف وتحويل البيانات باستخدام Power Query.',
+      'تجهيز نموذج البيانات للتحليل داخل Power BI.',
+      'إنشاء مقاييس DAX لمؤشرات المبيعات والأداء الرئيسية.',
+      'حساب إجمالي المبيعات وإجمالي الأرباح وإجمالي الكمية.',
+      'تحليل أداء المبيعات حسب الفئات والمناطق.',
+      'تحليل اتجاه المبيعات الشهرية وعدد العملاء عبر الوقت.',
+      'تطبيق تحليل Year-over-Year (YoY) لمقارنة الأداء بين السنوات.',
+      'تطبيق What-if Analysis للسماح بتحليل السيناريوهات المختلفة.',
+      'تطبيق Drillthrough للوصول إلى تفاصيل إضافية للبيانات المحددة.',
+      'إنشاء Tooltips تفاعلية لعرض معلومات إضافية داخل لوحة المعلومات.',
+      'إضافة Buttons تفاعلية لتحسين التنقل وتجربة المستخدم.',
+      'تنظيم النتائج في لوحة معلومات تفاعلية باستخدام Power BI.'
+    ]
+  },
+
+  findings: {
+    en: [
+      'The dashboard reports total sales of 2.30M.',
+      'Total profit is 286.40K.',
+      'Total quantity is 38K.',
+      'Technology is the highest-selling category among the displayed categories.',
+      'Sales performance varies across regions.',
+      'Monthly sales analysis highlights changes in sales performance throughout the year.',
+      'Year-over-Year analysis provides a dynamic comparison of sales performance across different years.',
+      'Interactive features allow users to explore the data from multiple perspectives.'
+    ],
+
+    ar: [
+      'توضح لوحة المعلومات أن إجمالي المبيعات يبلغ 2.30M.',
+      'يبلغ إجمالي الأرباح 286.40K.',
+      'يبلغ إجمالي الكمية 38K.',
+      'تُعد فئة Technology الأعلى مبيعًا ضمن الفئات الظاهرة في لوحة المعلومات.',
+      'يختلف أداء المبيعات بين المناطق المختلفة.',
+      'يوضح تحليل المبيعات الشهرية تغير أداء المبيعات خلال العام.',
+      'يوفر تحليل Year-over-Year مقارنة ديناميكية لأداء المبيعات بين السنوات المختلفة.',
+      'تتيح الخصائص التفاعلية استكشاف البيانات من أكثر من منظور.'
+    ]
+  },
+
+  deliverables: {
+    en: [
+      'Interactive Power BI Sales Dashboard',
+      'Sales KPI analysis',
+      'Profit analysis',
+      'Quantity analysis',
+      'Sales by category analysis',
+      'Sales by region analysis',
+      'Monthly sales trend analysis',
+      'Customer trend analysis',
+      'Year-over-Year (YoY) analysis',
+      'What-if Analysis',
+      'Drillthrough functionality',
+      'Interactive Tooltips',
+      'Interactive Buttons and navigation',
+      'Dynamic visualizations and filters'
+    ],
+
+    ar: [
+      'لوحة معلومات تفاعلية للمبيعات باستخدام Power BI',
+      'تحليل مؤشرات المبيعات الرئيسية',
+      'تحليل الأرباح',
+      'تحليل الكميات',
+      'تحليل المبيعات حسب الفئات',
+      'تحليل المبيعات حسب المناطق',
+      'تحليل اتجاه المبيعات الشهرية',
+      'تحليل اتجاه العملاء',
+      'تحليل Year-over-Year (YoY)',
+      'تحليل What-if',
+      'خاصية Drillthrough',
+      'Tooltips تفاعلية',
+      'Buttons تفاعلية والتنقل بين الصفحات',
+      'رسوم بيانية وفلاتر تفاعلية'
+    ]
+  },
+
+  links: {
+    github: 'https://github.com/Ayman55mahmoud/super-Store-sales/tree/main',
+    demo: '',
+    dataset: 'https://github.com/Ayman55mahmoud/super-Store-sales/blob/main/project%201.pbix'
+  },
+
+  // Add your GitHub image URL here
+  //https://github.com/Ayman55mahmoud/super-Store-sales/blob/main/Excel%20to%20Power%20BI%20Dashboard.png
+  thumbnail: 'https://raw.githubusercontent.com/Ayman55mahmoud/super-Store-sales/main/Power%20BI%20Sales%20Dashboard%20Banner.png',
+
+  screenshots: [
+    'https://raw.githubusercontent.com/Ayman55mahmoud/super-Store-sales/main/Screenshot%202026-11-03%20131813.png',
+    'https://raw.githubusercontent.com/Ayman55mahmoud/super-Store-sales/main/Screenshot%202026-11-03%20131743.png',
+    'https://raw.githubusercontent.com/Ayman55mahmoud/super-Store-sales/main/Screenshot%202026-11-03%20131907.png',
+    'https://raw.githubusercontent.com/Ayman55mahmoud/super-Store-sales/main/Screenshot%202026-11-03%20132109.png'
+  ]
+},
 ];
 window.portfolioTranslations={
   en: {
