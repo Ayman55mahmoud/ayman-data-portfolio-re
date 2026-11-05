@@ -1,148 +1,5 @@
 /* Edit this file to add or update portfolio projects. Keep findings factual; replace demo content with your own results. */ window.portfolioProjects = [
-  
-{
-  id: 'sales-delivery-analytics',
-  title: {
-    en: 'Sales & Delivery Performance Analysis',
-    ar: 'تحليل أداء المبيعات والتسليم'
-  },
-  description: {
-    en: 'Analyze sales orders, customer segments, product color preferences, and delivery performance through an Excel dashboard.',
-    ar: 'تحليل طلبات المبيعات وشرائح العملاء والألوان الأكثر مبيعًا وأداء التسليم من خلال لوحة معلومات تفاعلية باستخدام Excel.'
-  },
-  tools: [
-    'Microsoft Excel',
-    'Data Cleaning',
-    'PivotTables',
-    'Charts',
-    'Dashboard Design'
-  ],
-  categories: [
-    'analysis',
-    'excel',
-    'dashboards'
-  ],
-  status: 'completed',
-  type: {
-    en: 'Sales & Business Analysis',
-    ar: 'تحليل المبيعات والأعمال'
-  },
-  businessProblem: {
-    en: 'Understanding sales distribution and delivery performance can be difficult when order information is spread across raw data. A clear dashboard helps summarize customer segments, geographic demand, product preferences, and delivery timing.',
-    ar: 'قد يكون فهم توزيع المبيعات وأداء التسليم صعبًا عندما تكون معلومات الطلبات موجودة في بيانات خام. تساعد لوحة المعلومات على تلخيص شرائح العملاء والطلب حسب المناطق وتفضيلات المنتجات ومواعيد التسليم.'
-  },
-  questions: {
-    en: [
-      'What are the total sales and total number of orders?',
-    'What is the average selling price?',
-    'How do sales vary across platforms?',
-    'Which product is the best seller?',
-    'What percentage of orders were delivered on time?',
-    'What is the breakdown of delivery statuses, including cancelled and undelivered orders?',
-    'Which areas have the highest number of orders?',
-    'Which product colors are sold most frequently?',
-    'What is the distribution of individual and company customers?'
-    ],
-    ar: [
-      'ما إجمالي المبيعات وإجمالي عدد الطلبات؟',
-    'ما متوسط سعر البيع؟',
-    'كيف تتوزع المبيعات حسب المنصة؟',
-    'ما المنتج الأكثر مبيعًا؟',
-    'ما نسبة الطلبات التي تم تسليمها في الموعد المحدد؟',
-    'ما توزيع حالات التسليم، بما يشمل الطلبات الملغاة وغير المستلمة؟',
-    'ما المناطق التي لديها أكبر عدد من الطلبات؟',
-    'ما الألوان الأكثر مبيعًا؟',
-    'ما توزيع العملاء بين الأفراد والشركات؟'
-    ]
-  },
-  dataset: {
-    en: 'Source: MISUO sales and delivery workbook. The workbook contains order, customer, product, geographic, and delivery-related information. Validate the final record count, date range, column definitions, and data-quality notes before publishing them.',
-    ar: 'المصدر: ملف بيانات مبيعات وتسليم MISUO. يحتوي الملف على معلومات مرتبطة بالطلبات والعملاء والمنتجات والمناطق والتسليم. يجب التحقق من العدد النهائي للسجلات والفترة الزمنية وتعريفات الأعمدة وملاحظات جودة البيانات قبل نشرها.'
-  },
-  methodology: {
-    en: [
-      'Reviewed the source workbook and inspected the available data fields.',
-    'Cleaned and prepared the data for analysis.',
-    'Calculated total sales, total orders, and average selling price.',
-    'Compared sales and product performance across platforms.',
-    'Identified the best-selling product based on the selected sales metric.',
-    'Compared target and actual delivery dates to evaluate on-time delivery.',
-    'Analyzed delivery statuses, including cancelled and undelivered orders.',
-    'Used charts and summaries to analyze geographic demand, product colors, and customer segments.',
-    'Organized the results into an Excel dashboard.'
-    ],
-    ar: [
-      'مراجعة ملف البيانات الأصلي وفحص الحقول المتاحة.',
-    'تنظيف البيانات وتجهيزها للتحليل.',
-    'حساب إجمالي المبيعات وإجمالي الطلبات ومتوسط سعر البيع.',
-    'مقارنة المبيعات وأداء المنتجات حسب المنصة.',
-    'تحديد المنتج الأكثر مبيعًا وفقًا لمقياس المبيعات المستخدم.',
-    'مقارنة تواريخ التسليم المستهدفة والفعلية لتقييم الالتزام بالموعد.',
-    'تحليل حالات التسليم، بما يشمل الطلبات الملغاة وغير المستلمة.',
-    'استخدام الرسوم والملخصات لتحليل الطلب حسب المناطق وألوان المنتجات وشرائح العملاء.',
-    'تنظيم النتائج في لوحة معلومات باستخدام Excel.'
-    ]
-  },
-  findings: {
-    en: [
-      'The dashboard shows order distribution across geographic areas, with some areas recording more orders than others.',
-      'The color analysis compares the frequency of product colors in the available records.',
-      'The customer chart displays a 72% individual and 28% company split; confirm the counting method before interpreting this as a share of unique customers.',
-      'The delivery chart compares target and actual delivery timing, but its averages and categories should be validated before drawing conclusions.',
-      'The dashboard can help identify areas for further investigation in sales and delivery operations.'
-    ],
-    ar: [
-      'توضح لوحة المعلومات توزيع الطلبات على المناطق الجغرافية، مع تسجيل بعض المناطق عدد طلبات أكبر من غيرها.',
-      'يقارن تحليل الألوان تكرار ألوان المنتجات في السجلات المتاحة.',
-      'يعرض رسم العملاء نسبة 72% للأفراد و28% للشركات؛ يجب التأكد من طريقة العد قبل اعتبارها نسبة العملاء الفريدين.',
-      'يقارن رسم التسليم بين التوقيت المستهدف والفعلي، لكن يجب التحقق من المتوسطات والفئات قبل استخلاص استنتاجات.',
-      'يمكن أن تساعد لوحة المعلومات في تحديد جوانب تحتاج إلى دراسة إضافية في عمليات المبيعات والتسليم.'
-    ]
-  },
-  deliverables: {
-    en: [
-      'Excel sales and delivery analysis workbook',
-    'Sales KPI summary: total sales, total orders, and average selling price',
-    'Sales by platform analysis',
-    'Best-selling product analysis',
-    'On-time delivery rate KPI',
-    'Delivery status breakdown',
-    'Orders by area analysis',
-    'Product color sales analysis',
-    'Individual versus company customer breakdown',
-    'Interactive dashboard with charts and key performance indicators'
-    ],
-    ar: [
-      'ملف Excel لتحليل المبيعات والتسليم',
-    'ملخص مؤشرات المبيعات: إجمالي المبيعات والطلبات ومتوسط سعر البيع',
-    'تحليل المبيعات حسب المنصة',
-    'تحليل المنتج الأكثر مبيعًا',
-    'مؤشر نسبة التسليم في الموعد المحدد',
-    'تحليل توزيع حالات التسليم',
-    'تحليل الطلبات حسب المناطق',
-    'تحليل مبيعات ألوان المنتجات',
-    'مقارنة الأفراد والشركات',
-    'لوحة معلومات تفاعلية تحتوي على الرسوم ومؤشرات الأداء الرئيسية'
-    ]
-  },
-  links: {
-    github: 'https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis',
-    demo: '',
-    dataset: 'https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis/blob/main/miuo%20source.xlsx'
-  },
-//https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis/blob/main/Misuo%20Dashboard%20Sales%20Insights.png
 
-  thumbnail:
-  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Misuo%20Dashboard%20Sales%20Insights.png",
-
-screenshots: [
-  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192907.png",
-  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192934.png",
-  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20211533.png"
-],
-},
-
-  
 {
   id: 'employee-performance-dashboard',
 
@@ -304,6 +161,336 @@ screenshots: [
 ]
 
 },
+
+
+
+
+
+{
+  id: 'call-center-performance',
+
+  title: {
+    en: 'Call Center Performance Dashboard',
+    ar: 'لوحة معلومات أداء مركز الاتصال'
+  },
+
+  description: {
+    en: 'An interactive Power BI dashboard designed to monitor call center performance, analyze call handling efficiency, service levels, abandonment rates, monthly call trends, forecasts, and agent performance through dynamic visualizations and interactive filters.',
+    ar: 'لوحة معلومات تفاعلية باستخدام Power BI لمتابعة أداء مركز الاتصال وتحليل كفاءة التعامل مع المكالمات ومستويات الخدمة ومعدلات التخلي عن المكالمات واتجاهات المكالمات الشهرية والتوقعات وأداء الموظفين من خلال الرسوم البيانية والفلاتر التفاعلية.'
+  },
+
+  tools: [
+    'Microsoft Power BI',
+    'Power Query',
+    'DAX',
+    'Data Modeling',
+    'Data Cleaning',
+    'Data Visualization',
+    'Dashboard Design'
+  ],
+
+  categories: [
+    'analysis',
+    'powerbi',
+    'dashboards'
+  ],
+
+  status: 'completed',
+
+  type: {
+    en: 'Call Center & Business Performance Analysis',
+    ar: 'تحليل أداء مركز الاتصال والأعمال'
+  },
+
+  businessProblem: {
+    en: 'Monitoring call center performance can be challenging when call volumes, handling efficiency, service levels, and agent performance need to be evaluated across different periods and projects. This dashboard provides an interactive overview of key operational indicators, helping users monitor performance, compare results, identify trends, and explore agent-level performance.',
+    ar: 'قد تمثل متابعة أداء مركز الاتصال تحديًا عند الحاجة إلى تقييم حجم المكالمات وكفاءة التعامل معها ومستويات الخدمة وأداء الموظفين عبر فترات زمنية ومشروعات مختلفة. توفر لوحة المعلومات رؤية تفاعلية لمؤشرات الأداء التشغيلية الرئيسية، مما يساعد على متابعة الأداء ومقارنة النتائج وتحديد الاتجاهات وتحليل أداء كل موظف.'
+  },
+
+  questions: {
+    en: [
+      'What is the total number of calls?',
+      'What percentage of calls were handled?',
+      'What is the Average Speed of Answer (ASA)?',
+      'What is the call abandonment rate?',
+      'How do total calls and handled calls compare across projects?',
+      'How does call volume change throughout the month?',
+      'How do forecasted calls compare with actual calls offered?',
+      'How does the service level change across months?',
+      'How does performance vary between individual agents?',
+      'Which agents handle the highest number of calls?',
+      'How can users compare agent performance using interactive filters?'
+    ],
+
+    ar: [
+      'ما إجمالي عدد المكالمات؟',
+      'ما نسبة المكالمات التي تم التعامل معها؟',
+      'ما متوسط سرعة الرد على المكالمات (ASA)؟',
+      'ما معدل التخلي عن المكالمات؟',
+      'كيف تتم مقارنة إجمالي المكالمات بالمكالمات التي تم التعامل معها حسب المشروع؟',
+      'كيف يتغير حجم المكالمات خلال الشهر؟',
+      'كيف تتم مقارنة المكالمات المتوقعة بالمكالمات الفعلية الواردة؟',
+      'كيف يتغير مستوى الخدمة عبر الأشهر؟',
+      'كيف يختلف الأداء بين الموظفين؟',
+      'من الموظفون الذين يتعاملون مع أكبر عدد من المكالمات؟',
+      'كيف يمكن مقارنة أداء الموظفين باستخدام الفلاتر التفاعلية؟'
+    ]
+  },
+
+  dataset: {
+    en: 'Source: Call center dataset used to build the Power BI dashboard. The dataset contains call-related information used to analyze call volumes, handling performance, service levels, abandonment rates, projects, monthly trends, and agent performance.',
+    ar: 'المصدر: مجموعة بيانات مركز الاتصال المستخدمة في إنشاء لوحة المعلومات باستخدام Power BI. تحتوي البيانات على معلومات مرتبطة بالمكالمات وأدائها ومستويات الخدمة ومعدلات التخلي عن المكالمات والمشروعات والاتجاهات الشهرية وأداء الموظفين.'
+  },
+
+  methodology: {
+    en: [
+      'Reviewed the source dataset and inspected the available fields.',
+      'Cleaned and transformed the data using Power Query.',
+      'Prepared the data model for analysis in Power BI.',
+      'Created DAX measures for key call center performance indicators.',
+      'Calculated total calls, handling rate, ASA, and abandonment rate.',
+      'Compared total calls and handled calls across projects.',
+      'Analyzed daily call volumes and monthly call trends.',
+      'Compared forecasted calls with actual calls offered.',
+      'Analyzed average service level across months.',
+      'Created a dedicated page to analyze agent performance.',
+      'Added interactive filters for month and project selection.',
+      'Organized the analysis into an interactive multi-page dashboard.'
+    ],
+
+    ar: [
+      'مراجعة مجموعة البيانات الأصلية وفحص الحقول المتاحة.',
+      'تنظيف البيانات وتحويلها باستخدام Power Query.',
+      'تجهيز نموذج البيانات للتحليل داخل Power BI.',
+      'إنشاء مقاييس DAX لمؤشرات أداء مركز الاتصال الرئيسية.',
+      'حساب إجمالي المكالمات ومعدل التعامل معها ومتوسط سرعة الرد ومعدل التخلي عن المكالمات.',
+      'مقارنة إجمالي المكالمات والمكالمات التي تم التعامل معها حسب المشروع.',
+      'تحليل أحجام المكالمات اليومية واتجاهاتها الشهرية.',
+      'مقارنة المكالمات المتوقعة بالمكالمات الفعلية الواردة.',
+      'تحليل متوسط مستوى الخدمة عبر الأشهر.',
+      'إنشاء صفحة مخصصة لتحليل أداء الموظفين.',
+      'إضافة فلاتر تفاعلية لاختيار الشهر والمشروع.',
+      'تنظيم التحليلات في لوحة معلومات تفاعلية متعددة الصفحات.'
+    ]
+  },
+
+  findings: {
+    en: [
+      'The dashboard reports approximately 1.7M total calls.',
+      'The overall handling rate is 98.68%.',
+      'The Average Speed of Answer (ASA) is 9.',
+      'The call abandonment rate is 1.32%.',
+      'Call volumes and handled calls vary across projects.',
+      'Daily call volume analysis highlights changes in call activity throughout the month.',
+      'Forecasted calls can be compared with actual calls offered across the displayed months.',
+      'The displayed average service levels are 97% in February, 92% in March, and 96% in April.',
+      'The agent performance page provides a dedicated view for comparing employee performance.'
+    ],
+
+    ar: [
+      'تعرض لوحة المعلومات إجمالي مكالمات يبلغ نحو 1.7 مليون مكالمة.',
+      'يبلغ معدل التعامل مع المكالمات 98.68%.',
+      'يبلغ متوسط سرعة الرد على المكالمات (ASA) مقدار 9.',
+      'يبلغ معدل التخلي عن المكالمات 1.32%.',
+      'يختلف حجم المكالمات والمكالمات التي تم التعامل معها بين المشروعات.',
+      'يوضح تحليل حجم المكالمات اليومية التغير في نشاط الاتصال خلال الشهر.',
+      'تتيح اللوحة مقارنة المكالمات المتوقعة بالمكالمات الفعلية الواردة خلال الأشهر المعروضة.',
+      'تبلغ مستويات الخدمة المعروضة 97% في فبراير و92% في مارس و96% في أبريل.',
+      'توفر صفحة أداء الموظفين عرضًا مخصصًا لمقارنة أداء العاملين.'
+    ]
+  },
+
+  deliverables: {
+    en: [
+      'Interactive Power BI Call Center Dashboard',
+      'Call center KPI summary',
+      'Total calls analysis',
+      'Call handling rate analysis',
+      'Average Speed of Answer (ASA)',
+      'Call abandonment rate analysis',
+      'Calls by project analysis',
+      'Daily call volume analysis',
+      'Forecasted versus actual calls analysis',
+      'Monthly service level analysis',
+      'Dedicated agent performance analysis page',
+      'Interactive month and project filters',
+      'Dynamic visualizations and multi-page navigation'
+    ],
+
+    ar: [
+      'لوحة معلومات تفاعلية لمركز الاتصال باستخدام Power BI',
+      'ملخص مؤشرات الأداء الرئيسية لمركز الاتصال',
+      'تحليل إجمالي المكالمات',
+      'تحليل معدل التعامل مع المكالمات',
+      'تحليل متوسط سرعة الرد على المكالمات (ASA)',
+      'تحليل معدل التخلي عن المكالمات',
+      'تحليل المكالمات حسب المشروع',
+      'تحليل حجم المكالمات اليومية',
+      'مقارنة المكالمات المتوقعة بالمكالمات الفعلية',
+      'تحليل مستوى الخدمة شهريًا',
+      'صفحة مخصصة لتحليل أداء الموظفين',
+      'فلاتر تفاعلية للشهر والمشروع',
+      'رسوم بيانية تفاعلية وتنقل بين صفحات لوحة المعلومات'
+    ]
+  },
+
+  links: {
+    github: 'https://github.com/Ayman55mahmoud/Call-Center-Performance-Dashboard-Power-Bi/tree/main',
+    demo: '',
+    dataset: 'https://github.com/Ayman55mahmoud/Call-Center-Performance-Dashboard-Power-Bi/blob/main/project2.pbix'
+  },
+
+  thumbnail: 'https://raw.githubusercontent.com/Ayman55mahmoud/Call-Center-Performance-Dashboard-Power-Bi/main/Salla%20Power%20BI%20Analytics%20Dashboard.png',
+
+  screenshots: ['https://raw.githubusercontent.com/Ayman55mahmoud/Call-Center-Performance-Dashboard-Power-Bi/main/Screenshot%202026-11-05%20021428.png',
+    'https://raw.githubusercontent.com/Ayman55mahmoud/Call-Center-Performance-Dashboard-Power-Bi/main/Screenshot%202026-11-05%20021234.png',
+    'https://raw.githubusercontent.com/Ayman55mahmoud/Call-Center-Performance-Dashboard-Power-Bi/main/Screenshot%202026-11-05%20021322.png'
+  ]
+},
+
+
+{
+  id: 'sales-delivery-analytics',
+  title: {
+    en: 'Sales & Delivery Performance Analysis',
+    ar: 'تحليل أداء المبيعات والتسليم'
+  },
+  description: {
+    en: 'Analyze sales orders, customer segments, product color preferences, and delivery performance through an Excel dashboard.',
+    ar: 'تحليل طلبات المبيعات وشرائح العملاء والألوان الأكثر مبيعًا وأداء التسليم من خلال لوحة معلومات تفاعلية باستخدام Excel.'
+  },
+  tools: [
+    'Microsoft Excel',
+    'Data Cleaning',
+    'PivotTables',
+    'Charts',
+    'Dashboard Design'
+  ],
+  categories: [
+    'analysis',
+    'excel',
+    'dashboards'
+  ],
+  status: 'completed',
+  type: {
+    en: 'Sales & Business Analysis',
+    ar: 'تحليل المبيعات والأعمال'
+  },
+  businessProblem: {
+    en: 'Understanding sales distribution and delivery performance can be difficult when order information is spread across raw data. A clear dashboard helps summarize customer segments, geographic demand, product preferences, and delivery timing.',
+    ar: 'قد يكون فهم توزيع المبيعات وأداء التسليم صعبًا عندما تكون معلومات الطلبات موجودة في بيانات خام. تساعد لوحة المعلومات على تلخيص شرائح العملاء والطلب حسب المناطق وتفضيلات المنتجات ومواعيد التسليم.'
+  },
+  questions: {
+    en: [
+      'What are the total sales and total number of orders?',
+    'What is the average selling price?',
+    'How do sales vary across platforms?',
+    'Which product is the best seller?',
+    'What percentage of orders were delivered on time?',
+    'What is the breakdown of delivery statuses, including cancelled and undelivered orders?',
+    'Which areas have the highest number of orders?',
+    'Which product colors are sold most frequently?',
+    'What is the distribution of individual and company customers?'
+    ],
+    ar: [
+      'ما إجمالي المبيعات وإجمالي عدد الطلبات؟',
+    'ما متوسط سعر البيع؟',
+    'كيف تتوزع المبيعات حسب المنصة؟',
+    'ما المنتج الأكثر مبيعًا؟',
+    'ما نسبة الطلبات التي تم تسليمها في الموعد المحدد؟',
+    'ما توزيع حالات التسليم، بما يشمل الطلبات الملغاة وغير المستلمة؟',
+    'ما المناطق التي لديها أكبر عدد من الطلبات؟',
+    'ما الألوان الأكثر مبيعًا؟',
+    'ما توزيع العملاء بين الأفراد والشركات؟'
+    ]
+  },
+  dataset: {
+    en: 'Source: MISUO sales and delivery workbook. The workbook contains order, customer, product, geographic, and delivery-related information. Validate the final record count, date range, column definitions, and data-quality notes before publishing them.',
+    ar: 'المصدر: ملف بيانات مبيعات وتسليم MISUO. يحتوي الملف على معلومات مرتبطة بالطلبات والعملاء والمنتجات والمناطق والتسليم. يجب التحقق من العدد النهائي للسجلات والفترة الزمنية وتعريفات الأعمدة وملاحظات جودة البيانات قبل نشرها.'
+  },
+  methodology: {
+    en: [
+      'Reviewed the source workbook and inspected the available data fields.',
+    'Cleaned and prepared the data for analysis.',
+    'Calculated total sales, total orders, and average selling price.',
+    'Compared sales and product performance across platforms.',
+    'Identified the best-selling product based on the selected sales metric.',
+    'Compared target and actual delivery dates to evaluate on-time delivery.',
+    'Analyzed delivery statuses, including cancelled and undelivered orders.',
+    'Used charts and summaries to analyze geographic demand, product colors, and customer segments.',
+    'Organized the results into an Excel dashboard.'
+    ],
+    ar: [
+      'مراجعة ملف البيانات الأصلي وفحص الحقول المتاحة.',
+    'تنظيف البيانات وتجهيزها للتحليل.',
+    'حساب إجمالي المبيعات وإجمالي الطلبات ومتوسط سعر البيع.',
+    'مقارنة المبيعات وأداء المنتجات حسب المنصة.',
+    'تحديد المنتج الأكثر مبيعًا وفقًا لمقياس المبيعات المستخدم.',
+    'مقارنة تواريخ التسليم المستهدفة والفعلية لتقييم الالتزام بالموعد.',
+    'تحليل حالات التسليم، بما يشمل الطلبات الملغاة وغير المستلمة.',
+    'استخدام الرسوم والملخصات لتحليل الطلب حسب المناطق وألوان المنتجات وشرائح العملاء.',
+    'تنظيم النتائج في لوحة معلومات باستخدام Excel.'
+    ]
+  },
+  findings: {
+    en: [
+      'The dashboard shows order distribution across geographic areas, with some areas recording more orders than others.',
+      'The color analysis compares the frequency of product colors in the available records.',
+      'The customer chart displays a 72% individual and 28% company split; confirm the counting method before interpreting this as a share of unique customers.',
+      'The delivery chart compares target and actual delivery timing, but its averages and categories should be validated before drawing conclusions.',
+      'The dashboard can help identify areas for further investigation in sales and delivery operations.'
+    ],
+    ar: [
+      'توضح لوحة المعلومات توزيع الطلبات على المناطق الجغرافية، مع تسجيل بعض المناطق عدد طلبات أكبر من غيرها.',
+      'يقارن تحليل الألوان تكرار ألوان المنتجات في السجلات المتاحة.',
+      'يعرض رسم العملاء نسبة 72% للأفراد و28% للشركات؛ يجب التأكد من طريقة العد قبل اعتبارها نسبة العملاء الفريدين.',
+      'يقارن رسم التسليم بين التوقيت المستهدف والفعلي، لكن يجب التحقق من المتوسطات والفئات قبل استخلاص استنتاجات.',
+      'يمكن أن تساعد لوحة المعلومات في تحديد جوانب تحتاج إلى دراسة إضافية في عمليات المبيعات والتسليم.'
+    ]
+  },
+  deliverables: {
+    en: [
+      'Excel sales and delivery analysis workbook',
+    'Sales KPI summary: total sales, total orders, and average selling price',
+    'Sales by platform analysis',
+    'Best-selling product analysis',
+    'On-time delivery rate KPI',
+    'Delivery status breakdown',
+    'Orders by area analysis',
+    'Product color sales analysis',
+    'Individual versus company customer breakdown',
+    'Interactive dashboard with charts and key performance indicators'
+    ],
+    ar: [
+      'ملف Excel لتحليل المبيعات والتسليم',
+    'ملخص مؤشرات المبيعات: إجمالي المبيعات والطلبات ومتوسط سعر البيع',
+    'تحليل المبيعات حسب المنصة',
+    'تحليل المنتج الأكثر مبيعًا',
+    'مؤشر نسبة التسليم في الموعد المحدد',
+    'تحليل توزيع حالات التسليم',
+    'تحليل الطلبات حسب المناطق',
+    'تحليل مبيعات ألوان المنتجات',
+    'مقارنة الأفراد والشركات',
+    'لوحة معلومات تفاعلية تحتوي على الرسوم ومؤشرات الأداء الرئيسية'
+    ]
+  },
+  links: {
+    github: 'https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis',
+    demo: '',
+    dataset: 'https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis/blob/main/miuo%20source.xlsx'
+  },
+//https://github.com/Ayman55mahmoud/sales-delivery-performance-analysis/blob/main/Misuo%20Dashboard%20Sales%20Insights.png
+
+  thumbnail:
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Misuo%20Dashboard%20Sales%20Insights.png",
+
+screenshots: [
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192907.png",
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20192934.png",
+  "https://raw.githubusercontent.com/Ayman55mahmoud/sales-delivery-performance-analysis/main/Screenshot%202026-10-19%20211533.png"
+],
+},  
+
 
   {
   id: 'power-bi-sales-dashboard',
